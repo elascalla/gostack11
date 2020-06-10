@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5a4649ff-0810-4c09-866d-68e66b13659c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gobarber-front-end.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prettier.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/sign-in-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/sign-up-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ToastContainer/Toast/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ToastContainer/Toast/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ToastContainer/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ToastContainer/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tooltip/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tooltip/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/auth.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/toast.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Dashboard/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/SignIn/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/SignIn/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/SignUp/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/SignUp/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Route.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/global.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/getValidationErrors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gobarber-back-end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarber-back-end/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gobarber-back-end/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarber-back-end/src/server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gobarber-back-end/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarber-back-end/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../primeiro-projeto-react/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1cujDrmTykxWdX14vDShyLMOcaw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="$USER_HOME$/.nvm/versions/node/v12.16.1/bin/node" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Input" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a4649ff-0810-4c09-866d-68e66b13659c" name="Default Changelist" comment="" />
+      <created>1591385255583</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591385255583</updated>
+      <workItem from="1591385257006" duration="2493000" />
+      <workItem from="1591627687539" duration="4040000" />
+      <workItem from="1591645844111" duration="8408000" />
+      <workItem from="1591716423037" duration="4027000" />
+      <workItem from="1591728617742" duration="16955000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2372" y="135" key="SettingsEditor" timestamp="1591747434174">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2372" y="135" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1591747434174" />
+    <state x="2571" y="270" width="618" height="522" key="find.popup" timestamp="1591746655302">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2571" y="270" width="618" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1591746655302" />
+  </component>
+</project>
