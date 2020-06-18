@@ -20,56 +20,93 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a4649ff-0810-4c09-866d-68e66b13659c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gobarber-front-end.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prettier.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/sign-in-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/sign-up-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Input/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Input/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ToastContainer/Toast/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ToastContainer/Toast/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ToastContainer/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ToastContainer/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tooltip/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tooltip/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/auth.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/toast.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Dashboard/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SignIn/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SignIn/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SignUp/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SignUp/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Route.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/global.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/getValidationErrors.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gobarber-back-end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarber-back-end/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gobarber-back-end/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarber-back-end/src/server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gobarber-back-end/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarber-back-end/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../primeiro-projeto-react/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/.buckconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/.watchmanconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/__tests__/App-test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/_BUCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/build_defs.bzl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/debug.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/src/debug/java/com/gobarbermobile/ReactNativeFlipper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/src/main/assets/fonts/RobotoSlab-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/src/main/assets/fonts/RobotoSlab-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/src/main/java/com/gobarbermobile/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/src/main/java/com/gobarbermobile/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/assets/fonts/RobotoSlab-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/assets/fonts/RobotoSlab-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/ios/Podfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/ios/gobarbermobile-tvOS/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/ios/gobarbermobile-tvOSTests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/ios/gobarbermobile.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/ios/gobarbermobile.xcodeproj/xcshareddata/xcschemes/gobarbermobile-tvOS.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/ios/gobarbermobile.xcodeproj/xcshareddata/xcschemes/gobarbermobile.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/ios/gobarbermobile/AppDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/ios/gobarbermobile/AppDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/ios/gobarbermobile/Base.lproj/LaunchScreen.xib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/ios/gobarbermobile/Images.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/ios/gobarbermobile/Images.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/ios/gobarbermobile/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/ios/gobarbermobile/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/ios/gobarbermobileTests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/ios/gobarbermobileTests/gobarbermobileTests.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/metro.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/prettier.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/react-native.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/@types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/assets/logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/assets/logo@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/components/Button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/components/Button/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/components/Input/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/components/Input/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/hooks/auth.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/hooks/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/pages/Dashboard/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/pages/SignIn/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/pages/SignIn/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/pages/SignUp/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/pages/SignUp/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/routes/app.routes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/routes/auth.routes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/routes/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/services/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/utils/getValidationErrors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +170,8 @@
       <workItem from="1591645844111" duration="8408000" />
       <workItem from="1591716423037" duration="4027000" />
       <workItem from="1591728617742" duration="16955000" />
+      <workItem from="1592001367749" duration="689000" />
+      <workItem from="1592257612132" duration="2337000" />
     </task>
     <servers />
   </component>
