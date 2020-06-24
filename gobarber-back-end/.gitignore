@@ -1,6 +1,10 @@
 node_modules
 dist
+coverage
 temp/
 
 tmp/*
 !tmp/.gitkeep
+
+tmp/uploads/*
+!tmp/uploads/.gitkeep
