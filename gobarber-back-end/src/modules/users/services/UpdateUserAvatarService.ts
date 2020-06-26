@@ -4,7 +4,7 @@ import AppError from '@shared/errors/AppError';
 
 import IUsersRepository from '@modules/users/repositories/IUsersRepository';
 import IStorageProvider from '@shared/container/providers/StoragedProvider/models/IStorageProvider';
-import User from '../infra/typeorm/entities/Users';
+import User from '../infra/typeorm/entities/User';
 
 interface IRequest {
   user_id: string;
