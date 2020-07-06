@@ -20,15 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a4649ff-0810-4c09-866d-68e66b13659c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../gobarber-back-end/src/modules/appointments/infra/http/controllers/ProviderAppointmentsController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarber-back-end/src/modules/appointments/infra/http/controllers/ProviderAppointmentsController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gobarber-back-end/src/modules/appointments/infra/http/controllers/ProviderDayAvailabilityController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarber-back-end/src/modules/appointments/infra/http/controllers/ProviderDayAvailabilityController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gobarber-back-end/src/modules/appointments/infra/http/controllers/ProviderMonthAvailabilityController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarber-back-end/src/modules/appointments/infra/http/controllers/ProviderMonthAvailabilityController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gobarber-back-end/src/modules/appointments/infra/typeorm/repositories/AppointmentsRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarber-back-end/src/modules/appointments/infra/typeorm/repositories/AppointmentsRepository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gobarber-back-end/src/modules/appointments/repositories/IAppointmentsRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarber-back-end/src/modules/appointments/repositories/IAppointmentsRepository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gobarber-back-end/src/modules/appointments/repositories/fakes/FakeAppointmentsRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarber-back-end/src/modules/appointments/repositories/fakes/FakeAppointmentsRepository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gobarber-back-end/src/modules/appointments/services/CreateAppointmentService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarber-back-end/src/modules/appointments/services/CreateAppointmentService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gobarber-back-end/src/modules/appointments/services/ListProviderMonthAvailabilityService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarber-back-end/src/modules/appointments/services/ListProviderMonthAvailabilityService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Dashboard/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ForgotPassword/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ForgotPassword/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ResetPassword/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ResetPassword/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gobarber-back-end/src/modules/users/services/SendForgotPasswordEmailService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarber-back-end/src/modules/users/services/SendForgotPasswordEmailService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToastContainer/Toast/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToastContainer/Toast/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToastContainer/Toast/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToastContainer/Toast/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToastContainer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToastContainer/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/auth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/auth.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SignIn/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignIn/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +64,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -72,12 +79,12 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/Input" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Input" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -98,6 +105,8 @@
       <workItem from="1592001367749" duration="689000" />
       <workItem from="1592257612132" duration="2337000" />
       <workItem from="1593803260579" duration="865000" />
+      <workItem from="1594040748452" duration="1233000" />
+      <workItem from="1594043598739" duration="9149000" />
     </task>
     <servers />
   </component>
@@ -120,13 +129,37 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2372" y="135" key="SettingsEditor" timestamp="1591747434174">
+    <state x="2568" y="262" width="614" height="538" key="#ESLint" timestamp="1594049078624">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2372" y="135" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1591747434174" />
-    <state x="2571" y="270" width="618" height="522" key="find.popup" timestamp="1591746655302">
+    <state x="2568" y="262" width="614" height="538" key="#ESLint/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1594049078624" />
+    <state x="2663" y="289" width="424" height="484" key="FileChooserDialogImpl" timestamp="1594041740266">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2571" y="270" width="618" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1591746655302" />
+    <state x="2663" y="289" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1594041740266" />
+    <state x="2372" y="135" key="SettingsEditor" timestamp="1594043545696">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2372" y="135" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1594043545696" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1594046998392">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1594046998392" />
+    <state x="2651" y="446" width="448" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594047004517">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2651" y="446" width="448" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1594047004517" />
+    <state x="2571" y="270" width="618" height="580" key="find.popup" timestamp="1594049322944">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2571" y="270" width="618" height="580" key="find.popup/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1594049322944" />
+    <state x="2529" y="250" width="700" height="530" key="recent.locations.popup" timestamp="1594047025081">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2529" y="250" width="700" height="530" key="recent.locations.popup/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1594047025081" />
+    <state x="2543" y="247" width="672" height="678" key="search.everywhere.popup" timestamp="1594047737071">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2543" y="247" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1594047737071" />
   </component>
 </project>
