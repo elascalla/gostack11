@@ -159,6 +159,10 @@ export const Section = styled.section`
     padding-bottom: 16px; //Distanciar a borda do título
     margin-bottom: 16px; //Distanciar o conteúdo da borda
   }
+
+  > p {
+    color: #999591;
+  }
 `;
 
 export const Appointment = styled.div`
@@ -174,6 +178,7 @@ export const Appointment = styled.div`
     display: flex;
     align-items: center;
     color: #f4ede8;
+    width: 70px;
 
     svg {
       color: #ff9000;
