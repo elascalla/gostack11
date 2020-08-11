@@ -19,15 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a4649ff-0810-4c09-866d-68e66b13659c" name="Default Changelist" comment="Feat: Adjusting in DatePicker in Dashboard.">
-      <change afterPath="$PROJECT_DIR$/src/pages/Profile/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Profile/styles.ts" afterDir="false" />
+    <list default="true" id="5a4649ff-0810-4c09-866d-68e66b13659c" name="Default Changelist" comment="Feat: Creating Profile.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Input/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/auth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/auth.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard/styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +49,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -67,7 +60,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -79,6 +72,7 @@
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -100,7 +94,20 @@
       <workItem from="1594040748452" duration="1233000" />
       <workItem from="1594043598739" duration="12760000" />
       <workItem from="1594088047885" duration="4043000" />
-      <workItem from="1594129838363" duration="5900000" />
+      <workItem from="1594129838363" duration="8006000" />
+      <workItem from="1594740954851" duration="2383000" />
+      <workItem from="1595017403334" duration="613000" />
+      <workItem from="1595083411182" duration="657000" />
+      <workItem from="1595110260835" duration="654000" />
+      <workItem from="1595192041629" duration="1948000" />
+      <workItem from="1595245772302" duration="1788000" />
+      <workItem from="1595854755504" duration="3878000" />
+      <workItem from="1595874822422" duration="80000" />
+      <workItem from="1596218209976" duration="661000" />
+      <workItem from="1596493575751" duration="558000" />
+      <workItem from="1596542338635" duration="692000" />
+      <workItem from="1596571942342" duration="605000" />
+      <workItem from="1596659180312" duration="169000" />
     </task>
     <task id="LOCAL-00001" summary="Feat: Adjusting in Dashboard, create Header and Appointments.">
       <created>1594069513083</created>
@@ -123,11 +130,25 @@
       <option name="project" value="LOCAL" />
       <updated>1594093221440</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Feat: Adjusting Dashboard.">
+      <created>1594137689483</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594137689483</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Feat: Creating Profile.">
+      <created>1594137704452</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594137704452</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -145,41 +166,50 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Feat: Adjusting in Dashboard, create Header and Appointments." />
     <MESSAGE value="Feat: Adjusting in DatePicker in Dashboard." />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: Adjusting in DatePicker in Dashboard." />
+    <MESSAGE value="Feat: Adjusting Dashboard." />
+    <MESSAGE value="Feat: Creating Profile." />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Creating Profile." />
   </component>
   <component name="WindowStateProjectService">
     <state x="2568" y="262" width="614" height="538" key="#ESLint" timestamp="1594049078624">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2568" y="262" width="614" height="538" key="#ESLint/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1594049078624" />
-    <state x="2663" y="289" width="424" height="484" key="FileChooserDialogImpl" timestamp="1594131466046">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="743" y="297" width="424" height="484" key="FileChooserDialogImpl" timestamp="1595246349366">
+      <screen x="0" y="27" width="1920" height="1010" />
     </state>
-    <state x="2663" y="289" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1594131466046" />
-    <state x="2372" y="135" key="SettingsEditor" timestamp="1594043545696">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="743" y="297" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1010@0.27.1920.1010" timestamp="1595246349366" />
+    <state x="2663" y="289" width="875" height="607" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1594150602385" />
+    <state x="452" y="153" key="SettingsEditor" timestamp="1595874899799">
+      <screen x="0" y="27" width="1920" height="1010" />
     </state>
+    <state x="452" y="153" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1010@0.27.1920.1010" timestamp="1595874899799" />
     <state x="2372" y="135" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1594043545696" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1594046998392">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="498" height="446" key="SwitcherDM/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1594046998392" />
-    <state x="2475" y="267" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1594093227478">
+    <state x="2475" y="267" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1594137709284">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2475" y="267" width="800" height="528" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1594093227478" />
+    <state x="2475" y="267" width="800" height="528" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1594137709284" />
     <state x="2651" y="446" width="448" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594047004517">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2651" y="446" width="448" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1594047004517" />
-    <state x="2571" y="270" width="618" height="580" key="find.popup" timestamp="1594090095189">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="651" y="280" width="618" height="543" key="find.popup" timestamp="1596659289133">
+      <screen x="0" y="27" width="1920" height="1010" />
     </state>
+    <state x="651" y="280" width="618" height="543" key="find.popup/1920.0.1920.1080/0.27.1920.1010@0.27.1920.1010" timestamp="1596659289133" />
     <state x="2571" y="270" width="618" height="580" key="find.popup/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1594090095189" />
     <state x="2529" y="250" width="700" height="530" key="recent.locations.popup" timestamp="1594047025081">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2529" y="250" width="700" height="530" key="recent.locations.popup/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1594047025081" />
+    <state x="624" y="236" key="run.anything.popup" timestamp="1595110297023">
+      <screen x="0" y="27" width="1920" height="1010" />
+    </state>
+    <state x="624" y="236" key="run.anything.popup/1920.0.1920.1080/0.27.1920.1010@0.27.1920.1010" timestamp="1595110297023" />
     <state x="2543" y="247" width="672" height="678" key="search.everywhere.popup" timestamp="1594132505358">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

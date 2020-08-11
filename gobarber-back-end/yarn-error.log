@@ -1,5 +1,5 @@
 Arguments: 
-  /home/elascalla/.nvm/versions/node/v12.16.1/bin/node /usr/share/yarn/bin/yarn.js add node-rate-limiter-flexible
+  /home/elascalla/.nvm/versions/node/v12.16.1/bin/node /usr/share/yarn/bin/yarn.js add @babel/cli @babel/core @babel/node @babel/preset-env @babel/preset-typescript babel-plogin-module-resolver -D
 
 PATH: 
   /home/elascalla/.nvm/versions/node/v12.16.1/bin:/home/elascalla/opt/cursos/GoStack11/gobarber-back-end/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/elascalla/Android/Sdk/emulator:/home/elascalla/Android/Sdk/tools:/home/elascalla/Android/Sdk/tools/bin:/home/elascalla/Android/Sdk/platform-tools
@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/node-rate-limiter-flexible: Not found
+  Error: https://registry.yarnpkg.com/babel-plogin-module-resolver: Not found
       at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66987:18)
       at Request.self.callback (/usr/share/yarn/lib/cli.js:140748:22)
       at Request.emit (events.js:311:20)
@@ -57,6 +57,8 @@ npm manifest:
       "multer": "^1.4.2",
       "nodemailer": "^6.4.10",
       "pg": "^8.2.1",
+      "rate-limiter-flexible": "^2.1.7",
+      "redis": "^3.0.2",
       "reflect-metadata": "^0.1.13",
       "tslib": "1.11.2",
       "tsyringe": "^4.3.0",
@@ -75,6 +77,7 @@ npm manifest:
       "@types/mongodb": "^3.5.25",
       "@types/multer": "^1.4.3",
       "@types/nodemailer": "^6.4.0",
+      "@types/redis": "^2.8.23",
       "@typescript-eslint/eslint-plugin": "^2.33.0",
       "@typescript-eslint/parser": "^2.33.0",
       "eslint": "^6.8.0",
@@ -858,6 +861,13 @@ Lockfile:
     version "1.2.3"
     resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.3.tgz#7ee330ba7caafb98090bece86a5ee44115904c2c"
     integrity sha512-ewFXqrQHlFsgc09MK5jP5iR7vumV/BYayNC6PgJO2LPe8vrnNFyjQjSppfEngITi0qvfKtzFvgKymGheFM9UOA==
+  
+  "@types/redis@^2.8.23":
+    version "2.8.23"
+    resolved "https://registry.yarnpkg.com/@types/redis/-/redis-2.8.23.tgz#9a82ae862d14cb21090e7075590a1007a145be3d"
+    integrity sha512-VbwR9By89j9r3z2cYLdKJlm5hZpmTENVhOEyl/4uEQ+TIkgCI0f4YqokfNpKoo1bVyfWuvqFvDUf7E/MRe07Cg==
+    dependencies:
+      "@types/node" "*"
   
   "@types/serve-static@*":
     version "1.13.3"
@@ -4710,6 +4720,11 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
     integrity sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==
   
+  rate-limiter-flexible@^2.1.7:
+    version "2.1.7"
+    resolved "https://registry.yarnpkg.com/rate-limiter-flexible/-/rate-limiter-flexible-2.1.7.tgz#5594818c92abac1229ae512cac6a604b39c96b2b"
+    integrity sha512-oq1fBLuMy8RGzs0klc+8jIB2I6D8MIwewdnkebvXIB/WSt7jWKXAf1rlgaZCYCnLO6q9A2rFFKma+QusDANilA==
+  
   raw-body@2.4.0:
     version "2.4.0"
     resolved "https://registry.yarnpkg.com/raw-body/-/raw-body-2.4.0.tgz#a1ce6fb9c9bc356ca52e89256ab59059e13d0332"
@@ -4809,7 +4824,7 @@ Lockfile:
       indent-string "^2.1.0"
       strip-indent "^1.0.1"
   
-  redis-commands@1.5.0:
+  redis-commands@1.5.0, redis-commands@^1.5.0:
     version "1.5.0"
     resolved "https://registry.yarnpkg.com/redis-commands/-/redis-commands-1.5.0.tgz#80d2e20698fe688f227127ff9e5164a7dd17e785"
     integrity sha512-6KxamqpZ468MeQC3bkWmCB1fp56XL64D4Kf0zJSwDZbVLLm7KFkoIcHrgRvQ+sk8dnhySs7+yBg94yIkAK7aJg==
@@ -4825,6 +4840,16 @@ Lockfile:
     integrity sha1-tm2CjNyv5rS4pCin3vTGvKwxyLQ=
     dependencies:
       redis-errors "^1.0.0"
+  
+  redis@^3.0.2:
+    version "3.0.2"
+    resolved "https://registry.yarnpkg.com/redis/-/redis-3.0.2.tgz#bd47067b8a4a3e6a2e556e57f71cc82c7360150a"
+    integrity sha512-PNhLCrjU6vKVuMOyFu7oSP296mwBkcE6lrAjruBYG5LgdSqtRBoVQIylrMyVZD/lkF24RSNNatzvYag6HRBHjQ==
+    dependencies:
+      denque "^1.4.1"
+      redis-commands "^1.5.0"
+      redis-errors "^1.2.0"
+      redis-parser "^3.0.0"
   
   reflect-metadata@^0.1.13:
     version "0.1.13"
