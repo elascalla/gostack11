@@ -25,7 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e052578-96ab-4c1b-8836-7785960145aa" name="Default Changelist" comment="" />
+    <list default="true" id="1e052578-96ab-4c1b-8836-7785960145aa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../gobarber-front-end/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarber-front-end/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +35,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
   </component>
   <component name="ProjectId" id="1cSyCggyjfmDBX0wPoJT2tShtji" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -62,6 +67,7 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -90,6 +96,7 @@
       <workItem from="1591111928565" duration="3041000" />
       <workItem from="1591323727635" duration="1437000" />
       <workItem from="1592516068927" duration="29000" />
+      <workItem from="1599164880077" duration="7000" />
     </task>
     <servers />
   </component>
@@ -156,9 +163,9 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2192" y="35" width="1437" height="859" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1590610394046" />
-    <state x="651" y="256" width="618" height="522" key="find.popup" timestamp="1591125779747">
+    <state x="651" y="256" width="618" height="522" key="find.popup" timestamp="1599164884339">
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
-    <state x="651" y="256" width="618" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1010@0.27.1920.1010" timestamp="1591125779747" />
+    <state x="651" y="256" width="618" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1010@0.27.1920.1010" timestamp="1599164884339" />
   </component>
 </project>

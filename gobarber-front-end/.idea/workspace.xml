@@ -20,7 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a4649ff-0810-4c09-866d-68e66b13659c" name="Default Changelist" comment="Feat: Creating Profile.">
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/pages/AppointmentCreated/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/pages/CreateAppointment/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/pages/Dashboard/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gobarbermobile/src/pages/Profile/styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gobarbermobile/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarbermobile/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gobarbermobile/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarbermobile/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gobarbermobile/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarbermobile/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gobarbermobile/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarbermobile/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gobarbermobile/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarbermobile/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gobarbermobile/src/components/Input/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarbermobile/src/components/Input/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gobarbermobile/src/hooks/auth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarbermobile/src/hooks/auth.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gobarbermobile/src/pages/AppointmentCreated/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarbermobile/src/pages/AppointmentCreated/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gobarbermobile/src/pages/CreateAppointment/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarbermobile/src/pages/CreateAppointment/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gobarbermobile/src/pages/Dashboard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarbermobile/src/pages/Dashboard/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gobarbermobile/src/pages/Profile/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarbermobile/src/pages/Profile/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gobarbermobile/src/services/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarbermobile/src/services/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gobarbermobile/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../gobarbermobile/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro-projeto-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../primeiro-projeto-react/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +68,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gobarbermobile" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -62,6 +81,7 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -108,6 +128,11 @@
       <workItem from="1596542338635" duration="692000" />
       <workItem from="1596571942342" duration="605000" />
       <workItem from="1596659180312" duration="169000" />
+      <workItem from="1597168001985" duration="696000" />
+      <workItem from="1597678988019" duration="999000" />
+      <workItem from="1599164780627" duration="56000" />
+      <workItem from="1599926769187" duration="2038000" />
+      <workItem from="1600012183550" duration="2213000" />
     </task>
     <task id="LOCAL-00001" summary="Feat: Adjusting in Dashboard, create Header and Appointments.">
       <created>1594069513083</created>
@@ -175,11 +200,11 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2568" y="262" width="614" height="538" key="#ESLint/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1594049078624" />
-    <state x="743" y="297" width="424" height="484" key="FileChooserDialogImpl" timestamp="1595246349366">
-      <screen x="0" y="27" width="1920" height="1010" />
+    <state x="2663" y="289" width="424" height="484" key="FileChooserDialogImpl" timestamp="1600012191428">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="743" y="297" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1010@0.27.1920.1010" timestamp="1595246349366" />
-    <state x="2663" y="289" width="875" height="607" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1594150602385" />
+    <state x="743" y="297" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1010@0.27.1920.1010" timestamp="1599164802167" />
+    <state x="2663" y="289" width="875" height="607" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1600012191428" />
     <state x="452" y="153" key="SettingsEditor" timestamp="1595874899799">
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
@@ -197,10 +222,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2651" y="446" width="448" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1594047004517" />
-    <state x="651" y="280" width="618" height="543" key="find.popup" timestamp="1596659289133">
+    <state x="651" y="280" width="618" height="543" key="find.popup" timestamp="1599164833111">
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
-    <state x="651" y="280" width="618" height="543" key="find.popup/1920.0.1920.1080/0.27.1920.1010@0.27.1920.1010" timestamp="1596659289133" />
+    <state x="651" y="280" width="618" height="543" key="find.popup/1920.0.1920.1080/0.27.1920.1010@0.27.1920.1010" timestamp="1599164833111" />
     <state x="2571" y="270" width="618" height="580" key="find.popup/1920.0.1920.1080/0.27.1920.1010@1920.0.1920.1080" timestamp="1594090095189" />
     <state x="2529" y="250" width="700" height="530" key="recent.locations.popup" timestamp="1594047025081">
       <screen x="1920" y="0" width="1920" height="1080" />
