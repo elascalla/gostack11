@@ -3,6 +3,8 @@ import { useNavigation } from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/Feather';
 import { useAuth } from '../../hooks/auth';
 
+import placeholder from '../../assets/placeholder.png';
+
 import {
   Container,
   Header,
@@ -58,7 +60,11 @@ const Dashboard: React.FC = () => {
         </HeaderTitle>
 
         <ProfileButton onPress={navigateToProfile}>
-          <UserAvatar source={{ uri: user.avatar_url }} />
+          {user.avatar_url ? (
+            <UserAvatar source={{ uri: user.avatar_url }} />
+          ) : (
+            <UserAvatar source={placeholder} />
+          )}
         </ProfileButton>
       </Header>
 
@@ -70,7 +76,11 @@ const Dashboard: React.FC = () => {
           <ProviderContainer
             onPress={() => navigateToCreateAppointment(provider.id)}
           >
-            <ProviderAvatar source={{ uri: provider.avatar_url }} />
+            {provider.avatar_url ? (
+              <ProviderAvatar source={{ uri: provider.avatar_url }} />
+            ) : (
+              <ProviderAvatar source={placeholder} />
+            )}
 
             <ProviderInfo>
               <ProviderName>{provider.name}</ProviderName>

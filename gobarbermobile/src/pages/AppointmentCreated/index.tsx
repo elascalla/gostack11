@@ -27,7 +27,7 @@ const AppointmentCreated: React.FC = () => {
       routes: [{ name: 'Dashboard' }],
       index: 0,
     });
-  }, []);
+  }, [reset]);
 
   const formattedDate = useMemo(() => {
     return format(

@@ -20,6 +20,8 @@ import getValidationErrors from '../../utils/getValidationErrors';
 import Input from '../../components/Input';
 import Button from '../../components/Button';
 
+import placeholder from '../../assets/placeholder.png';
+
 import {
   Container,
   BackButton,
@@ -39,7 +41,7 @@ interface ProfileData {
 }
 
 const Profile: React.FC = () => {
-  const { user, updateUser } = useAuth();
+  const { user, updateUser, signOut } = useAuth();
 
   const emailInputRef = useRef<TextInput>(null);
   const oldPasswordInputRef = useRef<TextInput>(null);
@@ -159,6 +161,10 @@ const Profile: React.FC = () => {
     );
   }, [updateUser, user.id]);
 
+  const handleLogout = useCallback(() => {
+    signOut();
+  }, [signOut]);
+
   return (
     <>
       <KeyboardAvoidingView
@@ -173,7 +179,11 @@ const Profile: React.FC = () => {
             </BackButton>
 
             <UserAvatarButton onPress={handleUpdateAvatar}>
-              <UserAvatar source={{ uri: user.avatar_url }} />
+              {user.avatar_url ? (
+                <UserAvatar source={{ uri: user.avatar_url }} />
+              ) : (
+                <UserAvatar source={placeholder} />
+              )}
             </UserAvatarButton>
 
             <View>
@@ -243,6 +253,8 @@ const Profile: React.FC = () => {
               <Button onPress={() => formRef.current?.submitForm()}>
                 Confirmar mudanças
               </Button>
+
+              <Button onPress={handleLogout}>Sair</Button>
             </Form>
           </Container>
         </ScrollView>
